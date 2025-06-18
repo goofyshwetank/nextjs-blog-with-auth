@@ -13,6 +13,15 @@ import OnThisPage from "@/components/onthispage"
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
 
+export async function generateStaticParams() {
+  const files = fs.readdirSync('content')
+  const markdownFiles = files.filter(file => file.endsWith('.md'))
+  
+  return markdownFiles.map(file => ({
+    slug: file.replace('.md', '')
+  }))
+}
+
 export default async function Page({ params }) {
 
     // const blog = {
