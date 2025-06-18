@@ -97,7 +97,7 @@ export default function Home() {
       {/* Review 1 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"The React Hooks tutorial was incredibly detailed and helped me finally understand useEffect. The examples were practical and easy to follow!"</p>
+          <p className="text-gray-600 dark:text-gray-400">&ldquo;The React Hooks tutorial was incredibly detailed and helped me finally understand useEffect. The examples were practical and easy to follow!&rdquo;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Sarah Chen</h3>
           <p className="text-gray-500 dark:text-gray-300">Frontend Developer</p>
         </div>
@@ -105,7 +105,7 @@ export default function Home() {
       {/* Review 2 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"This blog has become my go-to resource for staying updated with the latest in web development. The AI article opened my eyes to new possibilities!"</p>
+          <p className="text-gray-600 dark:text-gray-400">&ldquo;This blog has become my go-to resource for staying updated with the latest in web development. The AI article opened my eyes to new possibilities!&rdquo;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">Alex Rodriguez</h3>
           <p className="text-gray-500 dark:text-gray-300">Full Stack Developer</p>
         </div>
@@ -113,7 +113,7 @@ export default function Home() {
       {/* Review 3 */}
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-800 transform transition duration-500 hover:scale-105 text-center">
-          <p className="text-gray-600 dark:text-gray-400">"The Next.js performance optimization guide saved me hours of research. Applied the techniques and saw immediate improvements in my app!"</p>
+          <p className="text-gray-600 dark:text-gray-400">&ldquo;The Next.js performance optimization guide saved me hours of research. Applied the techniques and saw immediate improvements in my app!&rdquo;</p>
           <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">David Kim</h3>
           <p className="text-gray-500 dark:text-gray-300">Software Engineer</p>
         </div>
