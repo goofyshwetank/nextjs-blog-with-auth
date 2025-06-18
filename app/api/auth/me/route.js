@@ -3,6 +3,9 @@ import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
 import { verifyToken, extractTokenFromHeader } from '@/lib/jwt';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 export async function GET(request) {
   try {
     await dbConnect();

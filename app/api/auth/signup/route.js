@@ -3,6 +3,9 @@ import dbConnect from '@/lib/mongodb';
 import User from '@/models/User';
 import { generateToken } from '@/lib/jwt';
 
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
 export async function POST(request) {
   try {
     await dbConnect();
